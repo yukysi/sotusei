@@ -263,13 +263,13 @@
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
-.div76 {
+.div2 {
   height: 20px;
   position: relative;
   display: inline-block;
   flex-shrink: 0;
 }
-.div77 {
+.div3 {
   align-self: stretch;
   position: relative;
   line-height: 17px;
@@ -295,7 +295,7 @@
   position: relative;
   font-size: var(--font-size-smi);
 }
-.httpswwwmusabiacjpnews3 {
+.httpswwwmusabiacjpnews {
   align-self: stretch;
   height: 24px;
   position: relative;
