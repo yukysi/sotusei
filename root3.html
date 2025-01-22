@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./root3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "A P-OTF Aoto Gothic StdN";
+        src: url("./public/AP-OTF-AotoGothicStdN-Regular.otf");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "SF Pro";
+        src: url("./public/SF-Pro-Display-Semibold.otf");
+        font-weight: 600;
+      }
+      @font-face {
+        font-family: "A P-SK IshiiGothic StdN";
+        src: url("./public/AP-SK-IshiiGothicStdN-B.otf");
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root5">
+      <section class="status-bar-container">
+        <div class="status-bar-iphone3">
+          <div class="battery-level-container">
+            <div class="levels3">
+              <div class="battery3">
+                <img
+                  class="cap-icon3"
+                  loading="lazy"
+                  alt=""
+                  src="./public/cap.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top-right-container">
+          <div class="capacity3"></div>
+          <div class="connectivity-container">
+            <div class="connectivity-icons">
+              <div class="time6">
+                <div class="time7">9:41</div>
+              </div>
+              <div class="spacer-container">
+                <div class="dynamic-island-spacer3"></div>
+              </div>
+            </div>
+            <div class="cellular-connection-container">
+              <div class="cellular-connection-wrapper">
+                <img
+                  class="cellular-connection-icon3"
+                  loading="lazy"
+                  alt=""
+                  src="./public/cellular-connection.svg"
+                />
+
+                <div class="wifi-container">
+                  <div class="wifi-wrapper">
+                    <img
+                      class="wifi-icon3"
+                      loading="lazy"
+                      alt=""
+                      src="./public/wifi.svg"
+                    />
+
+                    <div class="connection-strength-container">
+                      <a class="a6">4</a>
+                      <div class="border-container">
+                        <b class="b1">/</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="signal-strength">
+                    <div class="border3"></div>
+                    <b class="b2">6</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="progress-container">
+            <div class="progress-indicatior5">
+              <div class="indicator5"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="comment-prompt-wrapper">
+        <div class="comment-prompt">
+          <div class="comment-title-container">
+            <h1 class="h14">最後にコメントを残そう</h1>
+            <div class="parent15">
+              <div class="div38">
+                選択肢では表現できないことを言葉にして他の人と共有してみましょう。
+              </div>
+              <div class="div39">
+                個人を特定するような、誹謗中傷などは禁じています。また、コメントは特定されないものになります。
+              </div>
+            </div>
+          </div>
+          <div class="component-181">
+            <button class="vision9">
+              <div class="label9">VISION</div>
+            </button>
+            <div class="div40">
+              武蔵野美術大学は2025年度から留学生に対して年間36万3000円の増額をする
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="example-intro">
+        <div class="div41">
+          <p class="p">例えば</p>
+        </div>
+      </div>
+      <section class="input-field-container1">
+        <div class="input-field-wrapper">
+          <div class="input-field1">
+            <div class="label10">コメント</div>
+            <div class="description1">Description</div>
+            <input class="input1" type="text" />
+
+            <div class="error1">Error</div>
+          </div>
+          <div class="submit-button-container">
+            <div class="button5" id="buttonContainer">
+              <div class="label11">みんなの意思を見よう</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./root4.html";
+        });
+      }
+    </script>
+  </body>
+</html>
